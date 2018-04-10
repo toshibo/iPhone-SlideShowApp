@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189B4F16207B649A004450DD /* EnlargedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B4F15207B649A004450DD /* EnlargedImageViewController.swift */; };
 		18A8F7D6207A6ACA0033D60D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7D5207A6ACA0033D60D /* AppDelegate.swift */; };
 		18A8F7D8207A6ACA0033D60D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7D7207A6ACA0033D60D /* ViewController.swift */; };
 		18A8F7DB207A6ACA0033D60D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A8F7D9207A6ACA0033D60D /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189B4F15207B649A004450DD /* EnlargedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedImageViewController.swift; sourceTree = "<group>"; };
 		18A8F7D2207A6ACA0033D60D /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A8F7D5207A6ACA0033D60D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A8F7D7207A6ACA0033D60D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				18A8F7DC207A6ACB0033D60D /* Assets.xcassets */,
 				18A8F7DE207A6ACB0033D60D /* LaunchScreen.storyboard */,
 				18A8F7E1207A6ACB0033D60D /* Info.plist */,
+				189B4F15207B649A004450DD /* EnlargedImageViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				18A8F7D8207A6ACA0033D60D /* ViewController.swift in Sources */,
 				18A8F7D6207A6ACA0033D60D /* AppDelegate.swift in Sources */,
+				189B4F16207B649A004450DD /* EnlargedImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

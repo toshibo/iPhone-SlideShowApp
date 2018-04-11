@@ -77,13 +77,23 @@ class ViewController: UIViewController {
         }
     }
     
+    func stopAnimation() {
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            btnGoNext.isEnabled = true
+            btnGoBack.isEnabled = true
+            playAndStopButton.setTitle("再生", for: .normal)
+        }
+    }
+    
     @objc func startAnimation(timer: Timer) {
         handleNextImage(self)
     }
     
     @objc func enlargeImage(tapGestureRecognizer:UITapGestureRecognizer) {
-        // アニメーションが再生されていたら停止する
-        handlePlayAndStopButton(self)
+        // アニメーションを停止する
+        stopAnimation()
         
         let enlargedImageViewController = self.storyboard?.instantiateViewController(withIdentifier: "EnlargedImage") as! EnlargedImageViewController
             //EnlargedImageViewController(nibName: nil, bundle: nil)
